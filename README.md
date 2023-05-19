@@ -31,27 +31,60 @@ Google Hacking:
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
-Following searches for all the sites that is in the domain yahoo.com
+Following searches for all the sites that is in the domain youtube.com
+
+![Screenshot from 2023-05-19 06-20-11](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/d0ee0a18-5466-4890-b856-6b6b5d4c90bb)
+
+
+
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
-Following searches for pdf file in the domain yahoo.com
+Following searches for pdf file in the domain youtube.com
+
+
+![Screenshot from 2023-05-19 06-24-55](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/f1d252cf-b572-4806-9f38-8bc11c07e0f0)
+
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
 
+
+![Screenshot from 2023-05-19 06-30-11](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/ac90bd1e-0b2d-4fee-a6af-1d7a5829e103)
+
+
+
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+
+![Screenshot from 2023-05-19 06-31-50](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/4a68f26c-41da-4e81-a3a7-9bc83c3344e8)
+
+
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
+
+![Screenshot from 2023-05-19 06-39-33](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/b749a39a-ebae-4e03-9a75-43ba98beb18a)
+
+
+
+
+
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
+
+![Screenshot from 2023-05-19 06-41-04](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/e7524e6d-ccb0-4b3a-b8f6-250cd841747a)
+
+
+
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
  
-#DNS Enumeration
+![Screenshot from 2023-05-19 06-44-21](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/1b274012-225e-4153-b4f6-ccc1fd307cde)
 
+#DNS Enumeration
 
 ##DNS Recon
 provides the ability to perform:
