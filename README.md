@@ -84,9 +84,9 @@ cache: This operator allows you to view the cached version of a page. For exampl
  
 ![Screenshot from 2023-05-19 06-44-21](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/1b274012-225e-4153-b4f6-ccc1fd307cde)
 
-#DNS Enumeration
+# DNS Enumeration
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -96,11 +96,12 @@ Top level domain expansion
 
 
 
+![-d](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/e27b6257-4d38-4365-a04f-6bd71610632a)
 
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -114,8 +115,12 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![-in](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/795c489d-ba57-4e77-9791-49c71fc3f4d3)
 
-##smtp-user-enum
+
+
+
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -129,7 +134,7 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
   
   
 
