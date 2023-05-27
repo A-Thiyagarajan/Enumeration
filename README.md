@@ -1,5 +1,4 @@
 # Enumeration
-Enumeration Techniques
 
 # Explore Google hacking and enumeration 
 
@@ -123,20 +122,30 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 ## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
+![-very](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/c41be6f0-d0d4-40eb-9074-136cabe5c74b)
+
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
+
+![-meta](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/ba786664-2105-44aa-ab07-465057083629)
+
+
 select any username in the first column of the above file and check the same
 
+![-sntp](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/ad0d26fe-7a60-4604-be93-1bf950d88646)
 
-#Telnet for smtp enumeration
+
+
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ## Output
+## Output:
   
-  
+  ![-tel](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/4fd9ca59-abdf-43bc-917c-71e2c7e4351d)
+
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -145,6 +154,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 ## OUTPUT:
 
+![smtp-cmd](https://github.com/A-Thiyagarajan/Enumeration/assets/118707693/9ca27cef-c123-4ab2-b4b1-13e67d6e6d19)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
